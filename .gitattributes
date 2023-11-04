@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+运营商用户流失预测.pdf filter=lfs diff=lfs merge=lfs -text
+USER_INFO_M.csv filter=lfs diff=lfs merge=lfs -text
+印度美食分析与相似性研究 filter=lfs diff=lfs merge=lfs -text
+811招聘数据分析提交 filter=lfs diff=lfs merge=lfs -text
+87抖音电商数据分析提交 filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+data_new.csv filter=lfs diff=lfs merge=lfs -text
+代码and课件 filter=lfs diff=lfs merge=lfs -text
+商品销售数据.xlsx filter=lfs diff=lfs merge=lfs -text
+0机器学习基础 filter=lfs diff=lfs merge=lfs -text
+729周六作业提交 filter=lfs diff=lfs merge=lfs -text
+连锁便利店商品滞销分析 filter=lfs diff=lfs merge=lfs -text
