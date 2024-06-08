@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-06-08T13:36:07.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="JNvmar9kpw19SoDRlgaG" version="24.5.2" type="github">
+  <diagram name="第 1 页" id="r_SqWPrTt6OXx4JLJ50r">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cl99KiZeoaToYLVPkOgC-1" value="SAR数据处理及看板分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="28.25" y="130" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-3" value="源数据获取" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-5" value="IPD数据爬取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-6" value="数据解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-7" value="文件通过加解密接口获取查看文件权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-8" value="数据入库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="220" width="176.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-10" value="解析数据到mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281.75" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-11" value="同步到hive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281.75" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-12" value="同步到clickhouse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281.75" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-23" value="构建数据模型" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478.25" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-24" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="176.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-25" value="数据抽取、清洗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488.25" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-26" value="sql脚本构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488.25" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-27" value="同步到clickhouse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488.25" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-28" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="178.25" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-29" value="建设符合业务需求的看板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="699.13" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-30" value="产出分析文档" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="699.12" y="340" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-32" value="看板建设" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="689.13" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-33" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="78.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-35" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="78.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cl99KiZeoaToYLVPkOgC-36" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="610.88" y="280" width="78.25" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
